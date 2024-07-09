@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins " sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8c9c4;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container1 {
+  position: relative;
+  background-image: url("images/bg.jpeg");
+  background-size: cover;
+  padding: 0 20px;
+  margin: 5px;
+  border-radius: 28px;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  width: 70px;
+}
+h5,
+h6 {
+  color: #ffff;
+}
+
+h6 {
+  font-size: 13px;
+}
+header .chip {
+  width: 60px;
+}
+.card-no {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+h5.number {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+h5.name {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.valid-data {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
